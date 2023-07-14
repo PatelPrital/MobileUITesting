@@ -1,0 +1,10 @@
+appId: com.hobbii.client.beta
+---
+- launchApp
+- tapOn:
+    id: "newsfeedTabIcon"
+- tapOn:
+    point: "50%,31%"
+- assertVisible: "Like"
+- longPressOn: "Like"
+- tapOn: "backArrowRound"

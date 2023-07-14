@@ -1,0 +1,15 @@
+appId: com.hobbii.client.beta
+---
+- launchApp
+- tapOn:
+    id: "newsfeedTabIcon"
+- tapOn: "What’s on your mind?"
+- tapOn: "What do you want to share?"
+- inputText: "UI Testing"
+- tapOn: "Wanna add an image?"
+- tapOn:
+    point: "17%,19%"
+- tapOn:
+    point: "50%,19%"
+- tapOn: "Add"
+- tapOn: "Post"

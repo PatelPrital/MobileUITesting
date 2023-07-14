@@ -1,0 +1,26 @@
+appId: com.hobbii.client.beta
+---
+- launchApp
+- tapOn: "More"
+- tapOn: "Hobbii Bingo"
+- tapOn:
+    point: "93%,9%"
+- scrollUntilVisible:
+    element: "Other things"
+    direction: "DOWN"
+- tapOn:
+    point: "11%,10%"
+- tapOn: "Prital"
+- tapOn: "About the game"
+- scrollUntilVisible:
+    element: "Other things"
+    direction: "DOWN"
+- tapOn:
+    point: "11%,10%"
+- tapOn: "Prital"
+- tapOn:
+    point: "50%,94%"
+- tapOn:
+    point: "50%,93%"
+- tapOn: "Prital"
+- tapOn: "Exit Hobbii Bingo"

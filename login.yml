@@ -1,0 +1,13 @@
+appId: com.hobbii.client.beta
+---
+- launchApp
+- tapOn: "More"
+- tapOn: "Tap to log in/sign up"
+-  tapOn:
+    point: "50%,42%"
+- inputText: "prital@hobbii.dk"
+- tapOn: "Next \U0001f449"
+- tapOn:
+    point: "50%,39%"
+- inputText: "hobbii1234"
+- tapOn: "Next \U0001f449"

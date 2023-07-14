@@ -1,0 +1,11 @@
+appId: com.hobbii.client.beta
+---
+- launchApp
+- tapOn:
+    id: "newsfeedTabIcon"
+- tapOn: "Prital patel"
+- tapOn: "moreIcon"
+- tapOn: "Delete"
+- tapOn: "Yes"
+- tapOn:
+    id: "newsfeedTabIcon"

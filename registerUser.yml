@@ -1,0 +1,24 @@
+appId: com.hobbii.client.beta
+---
+- launchApp
+- tapOn: "More"
+- tapOn: "Tap to log in/sign up"
+- tapOn:
+    point: "50%,42%"
+- "inputRandomEmail"
+- tapOn: "Next \U0001f449"
+- tapOn:
+    point: "50%,31%"
+- "inputRandomPersonName"
+- tapOn:
+    point: "50%,40%"
+- "inputRandomPersonName"
+- tapOn:
+    point: "50%,58%"
+- inputText: "hobbii1234"
+- copyTextFrom:
+    point: "50%,58%"
+- tapOn:
+    point: "50%,67%"
+- "pasteText"
+- tapOn: "Next \U0001f449"

@@ -1,0 +1,10 @@
+appId: com.hobbii.client.beta
+---
+- launchApp
+- tapOn: "More"
+- tapOn: "Go to My Hobbii"
+- scrollUntilVisible:
+    element: "Log out"
+    direction: "DOWN"
+- tapOn: "Log out"
+- tapOn: "Yes, please"

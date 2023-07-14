@@ -1,0 +1,19 @@
+appId: com.hobbii.client.beta
+---
+- launchApp
+- tapOn:
+    id: "newsfeedTabIcon"
+- tapOn: "Prital patel"
+- tapOn: "moreIcon"
+- tapOn: "Edit"
+- inputText: " Edit post"
+- tapOn: "closeImageButton"
+- tapOn: "Wanna add an image?"
+- tapOn:
+    point: "17%,19%"
+- tapOn:
+    point: "83%,19%"
+- tapOn: "Add"
+- tapOn: "Save"
+- tapOn:
+    id: "newsfeedTabIcon"

@@ -1,0 +1,13 @@
+appId: com.hobbii.client.beta
+---
+- launchApp
+- tapOn:
+    id: "newsfeedTabIcon"
+- tapOn: "Comment"
+- tapOn: "Write a comment…"
+- "inputRandomText"
+- tapOn: "addImage"
+- tapOn:
+    point: "17%,19%"
+- tapOn: "Add"
+- tapOn: "sendEnabled"
